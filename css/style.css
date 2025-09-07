@@ -1,0 +1,354 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+header {
+  height: 92px;
+}
+
+header section {
+  display: flex;
+  justify-content: space-around;
+  background-color: #222222;
+  font-size: 15px;
+  color: white;
+  height: 30px;
+  align-items: center;
+}
+
+header section ul {
+  display: flex;
+  gap: 50px;
+  list-style-type: none;
+}
+
+header nav {
+  display: flex;
+  background-color: #f0a83e;
+  height: 62px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.imagen-gato {
+  height: 14px;
+  width: 18px;
+}
+
+.imagen-perro {
+  height: 14px;
+  width: 18px;
+}
+
+.titulo-header {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.titulo-header h1 {
+  font-size: 20px;
+  color: white;
+}
+
+.titulo-header h1 span {
+  color: #3c2313;
+}
+
+header nav ul {
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+}
+
+header nav ul a {
+  text-decoration: none;
+  color: white;
+}
+
+.menú-bienvenida {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  background-image: url(../img/bowl-and-pet-daities-on-green-background.svg);
+  height: 610px;
+  width: 100%;
+  background-repeat: no-repeat;
+  text-align: right;
+  text-decoration: none;
+  background-size: contain;
+}
+
+.menú-bienvenida h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 30px;
+  background-color: white;
+  text-align: center;
+  height: 64px;
+  width: 380px;
+  margin-right: 12px;
+  color: #3c2313;
+}
+
+.menú-bienvenida .descuento {
+  padding-top: 12px;
+  padding-right: 95px;
+  padding-bottom: 12px;
+  color: #3c2313;
+}
+
+.menú-bienvenida .comederos a {
+  display: flex;
+  text-decoration: none;
+  color: white;
+  background-color: #f0a83e;
+  height: 49px;
+  width: 141px;
+  align-items: center;
+  justify-content: center;
+  margin-right: 117px;
+}
+
+section ul {
+  list-style-type: none;
+}
+
+.productos-destacados {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.huellita-naranja {
+  height: 71px;
+  width: 67px;
+  padding-bottom: 5px;
+}
+
+.categorias {
+  display: flex;
+  gap: 13px;
+  padding-top: 20px;
+  padding-bottom: 49px;
+}
+
+.categorias a {
+  color: #555555;
+  text-decoration: none;
+}
+
+.productos-en-venta {
+  display: flex;
+  gap: 22px;
+  padding-bottom: 78px;
+}
+
+.productos-en-venta h3 a {
+  color: #3c2313;
+  text-decoration: none;
+}
+
+.productos-en-venta p {
+  color: #f0a83e;
+}
+
+article {
+  background-color: #fbfaf6;
+  font-weight: 500;
+  font-size: 15px;
+  text-align: center;
+  padding-bottom: 8px;
+}
+
+.contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.contacto h3 {
+  color: #3c2313;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.contacto ul {
+  background-color: white;
+}
+
+.contacto ul li {
+  display: flex;
+  width: 350px;
+  height: 50px;
+  align-items: center;
+  background-color: #3c2313;
+  color: white;
+  border-radius: 15px;
+  padding-left: 21px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.contacto div {
+  display: flex;
+  gap: 10px;
+  padding-bottom: 75px;
+}
+
+.contacto .boton-resetear a {
+  display: flex;
+  background-color: #8a8787;
+  text-decoration: none;
+  color: white;
+  width: 110px;
+  height: 34px;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.contacto .boton-enviar a {
+  display: flex;
+  background-color: #f0a83e;
+  text-decoration: none;
+  color: white;
+  width: 110px;
+  height: 34px;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.suscribite {
+  display: flex;
+  background-color: #f0a83e;
+  height: 72px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.suscribite h3 {
+  display: flex;
+  align-items: center;
+  color: white;
+  gap: 10px;
+  font-size: 22px;
+}
+
+.suscribite img {
+  height: 50px;
+  width: 50px;
+}
+
+.suscripcion {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.ingreso-correo {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  width: 271px;
+  height: 40px;
+  border-radius: 15px;
+  padding-left: 8px;
+  color: #a0a0a0;
+  font-size: 13px;
+}
+
+.boton-suscribirme a {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  background-color: #3c2313;
+  justify-content: center;
+  width: 90px;
+  height: 35px;
+  border-radius: 15px;
+  font-size: 12px;
+  color: white;
+  font-weight: 700;
+}
+
+.logo-y-datos {
+  align-items: center;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 371px;
+  background-color: #3c2313;
+}
+
+.titulo-footer {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.titulo-footer h3 {
+  font-size: 20px;
+  color: #f0a83e;
+}
+
+.titulo-footer h3 span {
+  color: white;
+}
+
+.datos-del-negocio {
+  display: flex;
+  gap: 35px;
+}
+
+.imagenes {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.datos-del-negocio img {
+  height: 80px;
+  width: 80px;
+}
+
+.lista-datos {
+  color: white;
+  font-size: 20px;
+}
+
+.lista-datos p {
+  color: #8a8787;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.items-lista {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  padding-top: 15px;
+}
+
+.derechos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  background-color: #222222;
+  color: white;
+  font-weight: 500;
+}
